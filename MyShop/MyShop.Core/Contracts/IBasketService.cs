@@ -13,7 +13,7 @@ namespace MyShop.Core.Contracts
         void AddToBasket(HttpContextBase httpContext, string productId);
         void RemoveFromBasket(HttpContextBase httpContext, string itemId);
         List<BasketItemViewModel> GetbaskeItems(HttpContextBase httpContext);
-        BasketSummaryViewModel GetBasketSummary(HttpContextBase httpContext)
+        BasketSummaryViewModel GetBasketSummary(HttpContextBase httpContext);
 
     };
 }
